@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e79b95b73.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>animated comment line</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="container__left">
+                <button id="button" class="container__btn">Click to comment</button>
+            </div>
+            <div id="right" class="container__right">
+                <div class="container__image">
+                    <div class="container__top">
+                        <img class="container__img" src="./img/uploaded.png" alt="uploaded">
+                    </div>
+                    <div class="container__bottom">
+                        <p class="container__text">Nike Aır Zone 1</p>
+                        <div class="container__icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__comments">
+                    <div class="container__valuation">
+                        <div class="container__tops">
+                            <div class="container__stars-gold">
+                                <i class="fa-solid fa-star fa-gl"></i>
+                                <i class="fa-solid fa-star fa-gl"></i>
+                                <i class="fa-solid fa-star fa-gl"></i>
+                                <i class="fa-solid fa-star fa-gl"></i>
+                                <i class="fa-solid fa-star fa-gl"></i>
+                            </div>
+                            <p class="container__h1">Rate this product</p>
+                        </div>
+                        <div class="container__bottoms">
+                            <div class="container__stars-silver">
+                                <i class="fa-solid fa-star fa-xl"></i>
+                                <i class="fa-solid fa-star fa-xl"></i>
+                                <i class="fa-solid fa-star fa-xl"></i>
+                                <i class="fa-solid fa-star fa-xl"></i>
+                                <i class="fa-solid fa-star fa-xl"></i>
+                            </div>
+                            <p class="container__h2">Görsellere uygunluk</p>
+                        </div>
+                    </div>
+                    <form class="container__comment">
+                        <textarea name="comment" id="comment" cols="50" rows="6" maxlength="200"
+                            placeholder="please comment:"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
